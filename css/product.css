@@ -72,3 +72,18 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+
+@media (min-width: 376px){
+  #circulosTextFlex {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+
+@media (min-width: 1000px){
+  #circulosTextFlex {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
