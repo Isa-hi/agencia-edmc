@@ -1,0 +1,164 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+
+/* HEADINGS */
+h1,h2,h3,h3,h4,h5,h6 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #28abb9; /* rosa #ff4c68*/
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+  position: relative;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+  position: absolute;
+}
+
+.download-button {
+  margin: 7% 3% 6% 0;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-icons {
+  color: #1f6f8b; /* naranja claro #ef8172*/
+  padding-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #28abb9; /* rosa #ff4c68*/
+}
+
+.feature-text {
+  font-size: 1.75rem;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #1f6f8b; /*#ef8172*/
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #1f6f8b;
+  padding-bottom: 4%;
+}
+
+.press-image {
+  width: 13%;
+  margin: 5px 25px 70px;
+}
+
+/* Pricing Section */
+
+.card {
+  min-width: 300px;
+  padding: 0;
+  margin: 3% 2%;
+}
+
+.card-deck {
+  display: block;
+}
+
+/* Call to action section */
+
+#cta h3 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cta-download-button {
+  margin: 5% 2%;
+}
+
+/* Footer section  */
+
+#footer i {
+  margin: 1%;
+}
+i:hover {
+  color: #1f6f8b;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
